@@ -26,7 +26,7 @@ def clear_input():
     st.session_state["user_input"] = ""
 
 def main():
-    st.title('Indian Law Q&A Bot ⚖️')
+    st.title('Smart Idea: An Interface for Legal Advise')
 
     # Initialize session state for user input
     if "user_input" not in st.session_state:
