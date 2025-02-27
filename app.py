@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # Set up the Gemini API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC6O7Y1LAJRRuE6OUF-KTO1pXFqs9B4oMU"  # Replace with your actual API key
+os.environ["GOOGLE_API_KEY"] = "AIzaSyAqSWEvOGW46zSpaEptB9cfQalLKVSqFds"  # Replace with your actual API key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Function to call Gemini API for legal advice
