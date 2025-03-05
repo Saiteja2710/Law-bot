@@ -27,8 +27,9 @@ def clear_input():
 st.markdown(
     """
     <style>
-        header[data-testid="stToolbarActionButtonIcon"]  {
+        .st-emotion-cache-q16mip.e1i26tt71{
             display: none !important;
+            visibility: hidden !important;
         }
     </style>
     """,
