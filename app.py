@@ -27,10 +27,16 @@ def clear_input():
 st.markdown(
     """
     <style>
-        .st-emotion-cache-q16mip.e1i26tt71 {
+        .st-emotion-cache-q16mip.e1i26tt71 a[href*="github"] {
             display: none !important;
+            visibility: hidden !important;
         }
     </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.st-emotion-cache-q16mip.e1i26tt71 a[href*="github"]').forEach(el => el.remove());
+        });
+    </script>
     """,
     unsafe_allow_html=True
 )
