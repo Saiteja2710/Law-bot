@@ -32,7 +32,7 @@ st.markdown(
         .st-emotion-cache-1wbqy5l.e1i26tt70 {
             display: none !important;
             pointer-events: none;
-            cursor: default;
+            cursor: default !important;
             color: black !important; /* Ensures text remains black */
             text-decoration: none;
         }
