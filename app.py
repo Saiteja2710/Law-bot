@@ -14,7 +14,7 @@ def get_legal_advice(prompt):
             "identify the applicable laws, sections, and possible legal remedies."
         )
 
-        model = genai.GenerativeModel("gemini-pro")
+        model = genai.GenerativeModel("gemini-2.0-flash")
         response = model.generate_content(system_prompt + "\n\n" + prompt)
         
         return response.text
