@@ -27,21 +27,21 @@ def clear_input():
 st.markdown(
     """
     <style>
-        .st-emotion-cache-q16mip.e1i26tt71 , .st-emotion-cache-1wbqy5l e1i26tt70 , .st-emotion-cache-i0ptax e486ovb18 {
+        .st-emotion-cache-q16mip.e1i26tt71 {
             display: none !important;
             pointer-events: none;
             cursor: default;
             color: inherit;
             text-decoration: none;
         }
-         .st-emotion-cache-i0ptax e486ovb18 {
+        .st-emotion-cache-i0ptax.e486ovb18 {
             display: none !important;
             pointer-events: none;
             cursor: default;
             color: inherit;
             text-decoration: none;
         }
-        .st-emotion-cache-1wbqy5l e1i26tt70  {
+        .st-emotion-cache-1wbqy5l.e1i26tt70 {
             display: none !important;
             pointer-events: none;
             cursor: default;
@@ -52,6 +52,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 def main():
