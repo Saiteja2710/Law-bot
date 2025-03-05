@@ -27,13 +27,14 @@ def clear_input():
 st.markdown(
     """
     <style>
-        header[data-testid="stHeader"] a[href*="github"] {
+        .st-emotion-cache-q16mip.e1i26tt71 a[href*="github"] {
             display: none !important;
         }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 def main():
     st.title('Smart Idea: An Interface for Legal Advise')
