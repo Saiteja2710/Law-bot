@@ -36,7 +36,14 @@ def main():
     user_input = st.text_area("Enter case details:", key="user_input")
 
     col1, col2 = st.columns([2, 1])  # Layout for buttons
-
+    st.markdown(
+    """
+    <style>
+        .stApp header a[href*="github"] {display: none !important;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
     with col1:
         if st.button("Get Legal Advice"):
             if user_input:
