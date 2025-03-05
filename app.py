@@ -32,7 +32,7 @@ st.markdown(
         .st-emotion-cache-1wbqy5l.e1i26tt70 {
             pointer-events: none !important; /* Disables clicking */
             cursor: default !important; /* Prevents pointer from changing */
-            color: black !important; /* Keeps text color black */
+            color: rgb(14, 17, 23) !important; /* Keeps text color black */
             text-decoration: none;
             visibility: hidden; /* Hides the element but keeps its space */
         }
@@ -42,7 +42,7 @@ st.markdown(
         .st-emotion-cache-i0ptax.e486ovb18:hover,
         .st-emotion-cache-1wbqy5l.e1i26tt70:hover {
             cursor: default !important;
-            color: black !important;
+            color: rgb(14, 17, 23) !important;
         }
     </style>
     """,
