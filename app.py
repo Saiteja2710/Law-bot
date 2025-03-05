@@ -27,17 +27,17 @@ def clear_input():
 st.markdown(
     """
     <style>
-        .st-emotion-cache-q16mip.e1i26tt71{
-            display: none !important;
-            visibility: hidden !important;
+        .st-emotion-cache-q16mip.e1i26tt71 a[href*="github"] {
             pointer-events: none;
             cursor: default;
-
+            color: inherit; /* Keeps original text color */
+            text-decoration: none; /* Removes hover effects */
         }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 def main():
     st.title('Smart Idea: An Interface for Legal Advise')
