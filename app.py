@@ -31,7 +31,7 @@ st.markdown(
         .st-emotion-cache-i0ptax.e486ovb18,
         .st-emotion-cache-1wbqy5l.e1i26tt70 {
             display: none !important;
-            pointer-events: none;
+            pointer-events: none !important;
             cursor: default !important;
             color: black !important; /* Ensures text remains black */
             text-decoration: none;
