@@ -28,6 +28,7 @@ st.markdown(
     """
     <style>
         .st-emotion-cache-q16mip.e1i26tt71 {
+            display: none !important;
             pointer-events: none;
             cursor: default;
             color: inherit;
