@@ -27,7 +27,7 @@ def clear_input():
 st.markdown(
     """
     <style>
-        .st-emotion-cache-q16mip.e1i26tt71 a[href*="github"] {
+        .st-emotion-cache-q16mip.e1i26tt71 {
             display: none !important;
         }
     </style>
