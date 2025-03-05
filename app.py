@@ -27,7 +27,7 @@ def clear_input():
 st.markdown(
     """
     <style>
-        .st-emotion-cache-q16mip.e1i26tt71 {
+        .st-emotion-cache-q16mip.e1i26tt71 , .st-emotion-cache-1wbqy5l e1i26tt70 , .st-emotion-cache-i0ptax e486ovb18 {
             display: none !important;
             pointer-events: none;
             cursor: default;
