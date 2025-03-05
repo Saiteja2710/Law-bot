@@ -27,11 +27,11 @@ def clear_input():
 st.markdown(
     """
     <style>
-        .st-emotion-cache-q16mip.e1i26tt71 a[href*="github"] {
+        .st-emotion-cache-q16mip.e1i26tt71 {
             pointer-events: none;
             cursor: default;
-            color: inherit; /* Keeps original text color */
-            text-decoration: none; /* Removes hover effects */
+            color: inherit;
+            text-decoration: none;
         }
     </style>
     """,
