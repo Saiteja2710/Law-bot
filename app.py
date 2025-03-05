@@ -38,9 +38,9 @@ st.markdown(
         }
         
         /* Ensure hover does not change the cursor or color */
-        .st-emotion-cache-q16mip.e1i26tt71:hover,
-        .st-emotion-cache-i0ptax.e486ovb18:hover,
-        .st-emotion-cache-1wbqy5l.e1i26tt70:hover {
+        .st-emotion-cache-q16mip.e1i26tt71::hover,
+        .st-emotion-cache-i0ptax.e486ovb18::hover,
+        .st-emotion-cache-1wbqy5l.e1i26tt70::hover {
             cursor: default !important;
             color: black !important;
         }
