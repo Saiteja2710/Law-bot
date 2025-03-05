@@ -27,26 +27,22 @@ def clear_input():
 st.markdown(
     """
     <style>
-        .st-emotion-cache-q16mip.e1i26tt71 {
-            display: none !important;
-            pointer-events: none;
-            cursor: default;
-            color: inherit;
-            text-decoration: none;
-        }
-        .st-emotion-cache-i0ptax.e486ovb18 {
-            display: none !important;
-            pointer-events: none;
-            cursor: default;
-            color: inherit;
-            text-decoration: none;
-        }
+        .st-emotion-cache-q16mip.e1i26tt71,
+        .st-emotion-cache-i0ptax.e486ovb18,
         .st-emotion-cache-1wbqy5l.e1i26tt70 {
             display: none !important;
             pointer-events: none;
             cursor: default;
-            color: inherit;
+            color: black !important; /* Ensures text remains black */
             text-decoration: none;
+        }
+        
+        /* Ensure hover does not change the cursor or color */
+        .st-emotion-cache-q16mip.e1i26tt71:hover,
+        .st-emotion-cache-i0ptax.e486ovb18:hover,
+        .st-emotion-cache-1wbqy5l.e1i26tt70:hover {
+            cursor: default !important;
+            color: black !important;
         }
     </style>
     """,
