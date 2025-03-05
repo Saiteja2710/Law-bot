@@ -30,6 +30,9 @@ st.markdown(
         .st-emotion-cache-q16mip.e1i26tt71{
             display: none !important;
             visibility: hidden !important;
+            pointer-events: none;
+            cursor: default;
+
         }
     </style>
     """,
