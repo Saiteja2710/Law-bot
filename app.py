@@ -30,17 +30,17 @@ st.markdown(
         .st-emotion-cache-q16mip.e1i26tt71,
         .st-emotion-cache-i0ptax.e486ovb18,
         .st-emotion-cache-1wbqy5l.e1i26tt70 {
-            display: none !important;
-            pointer-events: none !important;
-            cursor: default !important;
-            color: black !important; /* Ensures text remains black */
+            pointer-events: none !important; /* Disables clicking */
+            cursor: default !important; /* Prevents pointer from changing */
+            color: black !important; /* Keeps text color black */
             text-decoration: none;
+            visibility: hidden; /* Hides the element but keeps its space */
         }
-        
+
         /* Ensure hover does not change the cursor or color */
-        .st-emotion-cache-q16mip.e1i26tt71::hover,
-        .st-emotion-cache-i0ptax.e486ovb18::hover,
-        .st-emotion-cache-1wbqy5l.e1i26tt70::hover {
+        .st-emotion-cache-q16mip.e1i26tt71:hover,
+        .st-emotion-cache-i0ptax.e486ovb18:hover,
+        .st-emotion-cache-1wbqy5l.e1i26tt70:hover {
             cursor: default !important;
             color: black !important;
         }
@@ -48,6 +48,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
