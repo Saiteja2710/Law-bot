@@ -10,7 +10,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 def get_legal_advice(prompt):
     try:
         system_prompt = (
-            "You are an AI assistant specializing in Indian laws. When given a case scenario, bot output should be started with here is the analysis "
+            "You are an AI assistant specializing in Indian laws. When given a case scenario,"
             "identify the applicable laws, sections, and possible legal remedies."
         )
 
